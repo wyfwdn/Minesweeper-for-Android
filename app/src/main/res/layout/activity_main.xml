@@ -1,0 +1,131 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainactivity"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/toPlay"
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        android:background="@drawable/button"
+        android:text="Normal"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:layout_marginBottom="165dp"
+        android:layout_above="@+id/setDifficulty"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/setDifficulty"
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="0dp"
+        android:background="@drawable/button"
+        android:text="Settings"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/TreasureHunt"
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        android:background="@drawable/button"
+        android:text="Treasure Hunt"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:layout_below="@+id/riskbutton"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+    <Button
+        android:id="@+id/Twoplayer"
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        android:background="@drawable/button"
+        android:text="PVP"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:layout_alignBaseline="@+id/TreasureHunt"
+        android:layout_alignBottom="@+id/TreasureHunt"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:id="@+id/riskbutton"
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        android:background="@drawable/button"
+        android:text="Adventure"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:layout_below="@+id/battle"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/riskbutton1"
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        android:background="@drawable/button"
+        android:text="Adventrue+"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:layout_above="@+id/Twoplayer"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:id="@+id/flagmode"
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        android:background="@drawable/button"
+        android:text="Flags"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:layout_below="@+id/Twoplayer"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/records"
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="0dp"
+        android:background="@drawable/button"
+        android:text="Records"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/battle"
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        android:background="@drawable/button"
+        android:text="Endless"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:layout_alignBaseline="@+id/toPlay"
+        android:layout_alignBottom="@+id/toPlay"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>
